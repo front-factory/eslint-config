@@ -1,7 +1,7 @@
 {
     "name": "@front-factory/eslint-config",
     "version": "0.0.0",
-    "description": "",
+    "description": "The Front Factory ESLint Config.",
     "scripts": {
         "prepare": "husky"
     },
