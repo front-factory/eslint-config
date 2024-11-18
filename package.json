@@ -2,7 +2,9 @@
     "name": "@front-factory/eslint-config",
     "version": "0.0.0",
     "description": "The Front Factory ESLint Config.",
+    "type": "module",
     "scripts": {
+        "lint": "eslint --fix .",
         "prepare": "husky"
     },
     "engines": {
@@ -12,6 +14,11 @@
         "@commitlint/cli": "^19.5.0",
         "@commitlint/config-conventional": "^19.5.0",
         "husky": "^9.1.6"
+    },
+    "dependencies": {
+        "@eslint/js": "^9.15.0",
+        "@stylistic/eslint-plugin": "^2.10.1",
+        "eslint": "^9.15.0"
     },
     "license": "MIT",
     "homepage": "https://github.com/front-factory/eslint-config",
