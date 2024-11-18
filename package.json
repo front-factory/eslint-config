@@ -1,0 +1,28 @@
+{
+    "name": "@front-factory/eslint-config",
+    "version": "0.0.0",
+    "description": "",
+    "scripts": {
+        "prepare": "husky"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "husky": "^9.1.6"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/front-factory/eslint-config",
+    "bugs": {
+        "url": "https://github.com/front-factory/eslint-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/front-factory/eslint-config.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
