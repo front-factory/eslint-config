@@ -15,7 +15,7 @@ jobs:
       repository-projects: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Echo Token (pour debug local, évitez en production)
         run: echo "Token ${{ secrets.GITHUB_TOKEN }}"
