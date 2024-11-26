@@ -12,8 +12,15 @@ export default {
             {
                 preset: 'conventionalcommits',
                 releaseRules: [
-                    { type: 'docs', scope: 'README', release: 'patch' },
-                    { type: 'refactor', release: 'minor' }
+                    {
+                        type: 'docs',
+                        scope: 'README',
+                        release: 'patch'
+                    },
+                    {
+                        type: 'refactor',
+                        release: 'minor'
+                    }
                 ]
             }
         ],

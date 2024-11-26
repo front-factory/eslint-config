@@ -30,6 +30,16 @@ export default [{
             'error',
             4
         ],
+        '@stylistic/object-curly-newline': [
+            'error',
+            {
+                'minProperties': 1,
+                'multiline': true
+            }
+        ],
+        '@stylistic/object-property-newline': [
+            'error'
+        ],
         '@stylistic/quotes': [
             'error',
             'single'
