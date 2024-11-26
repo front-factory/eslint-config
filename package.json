@@ -5,20 +5,29 @@
     "type": "module",
     "scripts": {
         "lint": "eslint --fix .",
-        "prepare": "husky"
+        "prepare": "husky",
+        "release": "semantic-release"
     },
     "engines": {
         "node": ">=20.0.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.5.0",
-        "@commitlint/config-conventional": "^19.5.0",
-        "husky": "^9.1.6"
+        "@commitlint/cli": "^19.6.0",
+        "@commitlint/config-conventional": "^19.6.0",
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^11.0.1",
+        "@semantic-release/npm": "^12.0.1",
+        "husky": "^9.1.7",
+        "semantic-release": "^24.2.0"
     },
     "dependencies": {
         "@eslint/js": "^9.15.0",
         "@stylistic/eslint-plugin": "^2.10.1",
         "eslint": "^9.15.0"
+    },
+    "overrides": {
+        "conventional-changelog-conventionalcommits": ">= 8.0.0"
     },
     "license": "MIT",
     "homepage": "https://github.com/front-factory/eslint-config",
