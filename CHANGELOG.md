@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/front-factory/eslint-config/compare/v1.1.0...v1.1.1) (2024-11-27)
+
+### Bug Fixes
+
+* update `package-lock.json` ([256e75f](https://github.com/front-factory/eslint-config/commit/256e75f01df0aea334d96100bad2712bd7bed1db))
+
 ## [1.1.0](https://github.com/front-factory/eslint-config/compare/v1.0.0...v1.1.0) (2024-11-26)
 
 ### Features
