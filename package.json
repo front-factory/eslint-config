@@ -29,6 +29,11 @@
     "overrides": {
         "conventional-changelog-conventionalcommits": ">= 8.0.0"
     },
+    "keywords": [
+        "lint",
+        "eslint",
+        "front-end"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/front-factory/eslint-config",
     "bugs": {
