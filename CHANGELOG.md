@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/front-factory/eslint-config/compare/v1.1.1...v1.1.2) (2024-11-29)
+
+### Bug Fixes
+
+* missing `exports` ([c2007e2](https://github.com/front-factory/eslint-config/commit/c2007e25ade1cb319ae7b233b28bbfb448f27f70))
+
 ## [1.1.1](https://github.com/front-factory/eslint-config/compare/v1.1.0...v1.1.1) (2024-11-27)
 
 ### Bug Fixes
