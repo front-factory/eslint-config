@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/front-factory/eslint-config/compare/v1.1.2...v1.2.0) (2025-03-03)
+
+### Features
+
+* **rules:** add `comma-dangle` ([a5495c0](https://github.com/front-factory/eslint-config/commit/a5495c03d23455334241fe55cceb14276f87a78b))
+* **rules:** add `object-curly-spacing` ([e445c17](https://github.com/front-factory/eslint-config/commit/e445c17e77e3de7081d1b8d0e34fd64bf5a1a1c5))
+* **rules:** update `object-curly-newline` ([59d69af](https://github.com/front-factory/eslint-config/commit/59d69afa5042cfe0ee9822b262ca3b3726a0eb91))
+
+### Build System
+
+* **deps:** bump to `@eslint/js` 9.16.0 ([b459ec6](https://github.com/front-factory/eslint-config/commit/b459ec6fe133db2ce1f0ce39ab94dab98e1bd912))
+* **deps:** bump to `@eslint/js` 9.21.0 ([3ba9467](https://github.com/front-factory/eslint-config/commit/3ba94676f759a51d5f4f2f4dc26034bdec126940))
+
 ## [1.1.2](https://github.com/front-factory/eslint-config/compare/v1.1.1...v1.1.2) (2024-11-29)
 
 ### Bug Fixes
