@@ -36,10 +36,22 @@ export default [{
             4
         ],
         '@stylistic/object-curly-newline': [
-            'error',
-            {
-                'minProperties': 1,
-                'multiline': true
+            'error', {
+                'ObjectExpression': {
+                    'multiline': true,
+                    'minProperties': 1
+                },
+                'ObjectPattern': {
+                    'multiline': true
+                },
+                'ImportDeclaration': {
+                    'multiline': true,
+                    'minProperties': 3
+                },
+                'ExportDeclaration': {
+                    'multiline': true,
+                    'minProperties': 3
+                }
             }
         ],
         '@stylistic/object-curly-spacing': [
