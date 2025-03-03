@@ -42,6 +42,13 @@ export default [{
                 'multiline': true
             }
         ],
+        '@stylistic/object-curly-spacing': [
+            'error',
+            'always', {
+                'arraysInObjects': true,
+                'objectsInObjects': true
+            }
+        ],
         '@stylistic/object-property-newline': [
             'error'
         ],
