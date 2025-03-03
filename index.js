@@ -23,6 +23,11 @@ export default [{
         '@stylistic/brace-style': [
             'error'
         ],
+        '@stylistic/comma-dangle': [
+            'error', {
+                'functions': 'never'
+            }
+        ],
         '@stylistic/comma-spacing': [
             'error'
         ],
