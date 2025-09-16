@@ -2,8 +2,9 @@
 //                                            ESLINT                                             //
 // ============================================================================================= //
 
+import { defineConfig } from 'eslint/config';
 import config from './index.js';
 
-export default [
+export default defineConfig([
     ...config
-];
+]);
