@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/front-factory/eslint-config/compare/v1.2.0...v1.3.0) (2025-09-16)
+
+### Features
+
+* **deps:** bump to `@stylistic/eslint-plugin` 5.2.3 ([3597ff3](https://github.com/front-factory/eslint-config/commit/3597ff3dae448dcc9c8ddca0f92344772e9f8707))
+
 ## [1.2.0](https://github.com/front-factory/eslint-config/compare/v1.1.2...v1.2.0) (2025-03-03)
 
 ### Features
