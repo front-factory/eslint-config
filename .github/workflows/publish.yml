@@ -2,9 +2,9 @@ name: Publish
 
 on:
   push:
-    branches: [ "main", "develop", "beta" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "develop", "beta" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -14,7 +14,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
 
     permissions:
       contents: write
