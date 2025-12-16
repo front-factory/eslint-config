@@ -10,18 +10,7 @@ export default {
         [
             '@semantic-release/commit-analyzer',
             {
-                preset: 'conventionalcommits',
-                releaseRules: [
-                    {
-                        type: 'docs',
-                        scope: 'README',
-                        release: 'patch'
-                    },
-                    {
-                        type: 'refactor',
-                        release: 'minor'
-                    }
-                ]
+                preset: 'conventionalcommits'
             }
         ],
         [
@@ -44,7 +33,11 @@ export default {
                         },
                         {
                             type: 'build',
-                            section: 'Build System'
+                            hidden: true
+                        },
+                        {
+                            type: 'ci',
+                            hidden: true
                         },
                         {
                             type: 'docs',
@@ -56,7 +49,7 @@ export default {
                         },
                         {
                             type: 'refactor',
-                            section: 'Code Refactoring'
+                            hidden: true
                         },
                         {
                             type: 'perf',
