@@ -64,6 +64,13 @@ export default [{
         '@stylistic/object-property-newline': [
             'error'
         ],
+        '@stylistic/padding-line-between-statements': [
+            'error', {
+                blankLine: 'always',
+                prev: 'block-like',
+                next: '*'
+            }
+        ],
         '@stylistic/quotes': [
             'error',
             'single'
