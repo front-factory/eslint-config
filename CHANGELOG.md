@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/front-factory/eslint-config/compare/v1.3.1...v2.0.0) (2026-03-28)
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** bump to `@eslint/js` 10.0.1
+
+* **deps:** bump to `@eslint/js` 10.0.1 ([c03e590](https://github.com/front-factory/eslint-config/commit/c03e59023283559cbc5c8f7b94068b4a9b2d0e96))
+
+### Features
+
+* **deps:** bump to `@stylistic/eslint-plugin` 5.9.0 ([4eeca21](https://github.com/front-factory/eslint-config/commit/4eeca217d55eb6d4a5e4d375fae957ea01596436))
+* **rules:** add `padding-line-between-statements` ([8965149](https://github.com/front-factory/eslint-config/commit/8965149f318f136d06b49d7639cdee1b320e468a))
+
 ## [1.3.1](https://github.com/front-factory/eslint-config/compare/v1.3.0...v1.3.1) (2025-12-17)
 
 ### Bug Fixes
