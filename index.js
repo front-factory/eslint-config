@@ -69,6 +69,16 @@ export default [{
                 blankLine: 'always',
                 prev: 'block-like',
                 next: '*'
+            },
+            {
+                blankLine: 'always',
+                prev: 'multiline-expression',
+                next: '*'
+            },
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: 'return'
             }
         ],
         '@stylistic/quotes': [
