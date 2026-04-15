@@ -47,6 +47,9 @@
         "type": "git",
         "url": "git+https://github.com/front-factory/eslint-config.git"
     },
+    "files": [
+        "index.js"
+    ],
     "publishConfig": {
         "access": "public"
     }
