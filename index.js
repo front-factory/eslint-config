@@ -35,6 +35,13 @@ export default [{
             'error',
             4
         ],
+        '@stylistic/no-multiple-empty-lines': [
+            'error', {
+                'max': 1,
+                'maxEOF': 0,
+                'maxBOF': 0
+            }
+        ],
         '@stylistic/object-curly-newline': [
             'error', {
                 'ObjectExpression': {
