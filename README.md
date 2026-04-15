@@ -15,7 +15,9 @@ The Front Factory ESLint Config.
 Add or extend the `eslint.config.js` file with this configuration:
 
 ```js
-extends: [
-    '@front-factory/eslint-config'
-]
+import config from '@front-factory/eslint-config';
+
+export default [
+    ...config
+];
 ```
