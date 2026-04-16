@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.0](https://github.com/front-factory/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-16)
+
+### Features
+
+* **rules:** add `no-multiple-empty-lines` ([a5baa75](https://github.com/front-factory/eslint-config/commit/a5baa75e4532b326ca70af9c2085d88a01229016))
+
 ## [2.1.0](https://github.com/front-factory/eslint-config/compare/v2.0.0...v2.1.0) (2026-03-29)
 
 ### Features
