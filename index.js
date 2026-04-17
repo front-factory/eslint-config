@@ -74,6 +74,55 @@ export default [{
         '@stylistic/padding-line-between-statements': [
             'error', {
                 blankLine: 'always',
+                prev: '*',
+                next: 'return'
+            },
+            {
+                blankLine: 'always',
+                prev: [
+                    'const',
+                    'let',
+                    'var'
+                ],
+                next: '*'
+            },
+            {
+                blankLine: 'any',
+                prev: [
+                    'const',
+                    'let',
+                    'var'
+                ],
+                next: [
+                    'const',
+                    'let',
+                    'var'
+                ]
+            },
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: [
+                    'if',
+                    'for',
+                    'while',
+                    'switch',
+                    'try'
+                ]
+            },
+            {
+                blankLine: 'always',
+                prev: [
+                    'if',
+                    'for',
+                    'while',
+                    'switch',
+                    'try'
+                ],
+                next: '*'
+            },
+            {
+                blankLine: 'always',
                 prev: 'block-like',
                 next: '*'
             },
@@ -85,7 +134,37 @@ export default [{
             {
                 blankLine: 'always',
                 prev: '*',
-                next: 'return'
+                next: 'function'
+            },
+            {
+                blankLine: 'always',
+                prev: 'function',
+                next: '*'
+            },
+            {
+                blankLine: 'always',
+                prev: 'directive',
+                next: '*'
+            },
+            {
+                blankLine: 'always',
+                prev: 'import',
+                next: '*'
+            },
+            {
+                blankLine: 'any',
+                prev: 'import',
+                next: 'import'
+            },
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: 'export'
+            },
+            {
+                blankLine: 'any',
+                prev: 'export',
+                next: 'export'
             }
         ],
         '@stylistic/quotes': [
