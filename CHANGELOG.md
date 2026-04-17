@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.0](https://github.com/front-factory/eslint-config/compare/v2.2.0...v2.3.0) (2026-04-17)
+
+### Features
+
+* **rules:** update `padding-line-between-statements` ([13793dd](https://github.com/front-factory/eslint-config/commit/13793ddcc9865b2a3547f12711c714156a5ed4f9))
+
 ## [2.2.0](https://github.com/front-factory/eslint-config/compare/v2.1.0...v2.2.0) (2026-04-16)
 
 ### Features
