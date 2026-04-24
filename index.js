@@ -11,7 +11,7 @@ export default [{
         '@stylistic/array-bracket-newline': [
             'error', {
                 multiline: true,
-                minItems: 1
+                minItems: 2
             }
         ],
         '@stylistic/array-bracket-spacing': [
