@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.1](https://github.com/front-factory/eslint-config/compare/v2.4.0...v2.4.1) (2026-04-24)
+
+### Bug Fixes
+
+* **rules:** update `array-bracket-newline` ([60ad363](https://github.com/front-factory/eslint-config/commit/60ad363b0bdb75ba1faf0f4c5562a1b22201e0e8))
+
 ## [2.4.0](https://github.com/front-factory/eslint-config/compare/v2.3.0...v2.4.0) (2026-04-24)
 
 ### Features
