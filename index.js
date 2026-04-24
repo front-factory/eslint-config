@@ -9,8 +9,10 @@ export default [{
             'error'
         ],
         '@stylistic/array-bracket-newline': [
-            'error',
-            'consistent'
+            'error', {
+                multiline: true,
+                minItems: 1
+            }
         ],
         '@stylistic/array-bracket-spacing': [
             'error',
