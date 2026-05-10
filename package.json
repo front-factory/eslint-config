@@ -34,8 +34,11 @@
     },
     "keywords": [
         "eslint",
+        "eslint-config",
+        "eslintconfig",
         "eslintplugin",
         "eslint-plugin",
+        "flat-config",
         "front-end"
     ],
     "license": "MIT",
