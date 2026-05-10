@@ -5,6 +5,7 @@ import stylistic from '@stylistic/eslint-plugin';
 export default [
     js.configs.recommended,
     {
+        name: '@front-factory/eslint-config',
         languageOptions: {
             ecmaVersion: 'latest',
             sourceType: 'module',
