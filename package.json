@@ -9,7 +9,7 @@
         "release": "semantic-release"
     },
     "engines": {
-        "node": ">=22"
+        "node": ">=22.13.0"
     },
     "exports": "./index.js",
     "devDependencies": {
@@ -35,11 +35,10 @@
         "eslint",
         "eslint-config",
         "eslintconfig",
-        "eslintplugin",
-        "eslint-plugin",
         "flat-config",
         "front-end"
     ],
+    "author": "Front Factory",
     "license": "MIT",
     "homepage": "https://github.com/front-factory/eslint-config",
     "bugs": {
