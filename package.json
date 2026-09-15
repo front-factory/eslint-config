@@ -31,9 +31,6 @@
     "peerDependencies": {
         "eslint": ">=10"
     },
-    "overrides": {
-        "conventional-changelog-conventionalcommits": ">= 8.0.0"
-    },
     "keywords": [
         "eslint",
         "eslint-config",
