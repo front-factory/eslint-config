@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.0](https://github.com/front-factory/eslint-config/compare/v2.4.2...v2.5.0) (2026-09-15)
+
+### Features
+
+* **config:** add name to config object ([cd2c82c](https://github.com/front-factory/eslint-config/commit/cd2c82c15723a940b49e5236b7bb99b5a4942f27))
+* **rules:** extend eslint recommended and add languageOptions ([08895e6](https://github.com/front-factory/eslint-config/commit/08895e62c2ba5c06b61867b650afd54eb748758b))
+
+### Bug Fixes
+
+* **config:** lower node engines requirement to >=22 ([8d43e68](https://github.com/front-factory/eslint-config/commit/8d43e68549c4cba59a9ae05f803161dc236e0ce0))
+
 ## [2.4.2](https://github.com/front-factory/eslint-config/compare/v2.4.1...v2.4.2) (2026-05-10)
 
 ### Bug Fixes
