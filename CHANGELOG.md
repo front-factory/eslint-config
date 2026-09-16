@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/front-factory/eslint-config/compare/v2.5.0...v3.0.0) (2026-09-16)
+
+### ⚠ BREAKING CHANGES
+
+* **config:** eslint 9 is EOL. Consumers must upgrade to eslint 10 to use this config.
+
+  Also bumps eslint and @eslint/js dev/dependencies to their v10 releases.
+
+### Features
+
+* **config:** require eslint >=10 as a peer dependency ([6ed11b1](https://github.com/front-factory/eslint-config/commit/6ed11b11dea47727ab702b15e2b8becbd9606a24))
+
+### Bug Fixes
+
+* **config:** declare globals and @eslint/js as direct dependencies ([737f213](https://github.com/front-factory/eslint-config/commit/737f213c89bbfc386c4092999742b6ee60428e6f))
+* **config:** name config object following pluginName/purpose convention ([4ee9780](https://github.com/front-factory/eslint-config/commit/4ee9780397ccefd7ff5554e8ee891e40be6a5909))
+* **config:** tighten node engines and drop plugin-only keywords ([ee081f3](https://github.com/front-factory/eslint-config/commit/ee081f3d227fcf16b02476928606d5a351f53162))
+* **deps:** force conventional-changelog-writer to v9 to fix release CI ([5c7f296](https://github.com/front-factory/eslint-config/commit/5c7f2965308c10d7e2afb93fdcbe073daba6873d))
+* **deps:** remove stale conventional-changelog-conventionalcommits override ([04bcfcb](https://github.com/front-factory/eslint-config/commit/04bcfcb309ecb56b1ff5f50544a8ae7092130f8c))
+
+### Dependencies
+
+* **deps:** bump globals from 14.0.0 to 17.12.0 ([ba21f9c](https://github.com/front-factory/eslint-config/commit/ba21f9c64d0f6882bb59a205298e83db46e37d5e))
+
 ## [2.5.0](https://github.com/front-factory/eslint-config/compare/v2.4.2...v2.5.0) (2026-09-15)
 
 ### Features
